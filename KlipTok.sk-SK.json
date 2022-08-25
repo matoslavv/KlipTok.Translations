@@ -1,0 +1,269 @@
+{
+	// Components
+	"Pager_Display": "{0} - {1} z {2} položiek",
+	"Grid_NoRecords": "Nie sú dostupné žiadne nahrávky",
+	"Pager_ItemsPerPage": "Počet položiek na stránke",
+
+	// Clip
+	"Recorded": "Nahrané {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
+	"Likes": "Like",
+	"Comments": "Komenty",
+	"ClipViews": "Počet zobrazení klipu", //"Clip Views",
+	"ShareThisClip": "Zdieľať tento klip",
+	"KlipTokContentPlaceholder": "KlipTok Content Placeholder",
+	"ClippedByFormat": "Klipnuté používateľom {0}", // {0} is the display name of the clip creator
+	"PreviewThumbnailForClip": "Náhľad miniatúry klipu '{0}'", // Alternate text for the thumbnail for a clip.  {0} is the title of the clip
+
+	// Clip Galllery Component
+	"ListView": "Zobraziť zoznam",
+	"GridView": "Zobraziť mriežky",
+
+	// Comments
+	"ByLineFormat": "O {0} {1} napísal:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
+	"Reply": "Odpovedať",
+	"InReplyTo": "Odpovedať na {0}",
+
+	// Login View
+	"DarkMode": "Tmavý mód",
+	"LoginWithTwitch": "Prihlásiť sa s Twitchom",
+	"Logout": "Odhlásiť sa",
+	"MyStreamerPage": "Moja stránka streamera",
+
+	// Header
+	"SearchForChannel": "Vyhľadať streamera...", // Deprecated
+	"SearchNotFoundFormat": "{0} nebol nájdený", // {0} is the search term that was not found
+
+	// Search and Search Results
+	"SearchKlipTok": "Hľadať KlipTok...",
+	"SearchAllOfKlipTok": "Vyhľadat všetko v KlipToku pre {0}", // {0} is the search term to search clips for
+	"SearchResults": "Hľadať výsledky",
+	"SearchedKlipTokAndFoundTemplate": "Hľadali sme KlipTok pre \"{0}\" a našli sme:", // {0} is the term sought
+	"StreamerPlayingCategoryTemplate": "{0} hrá {1}", // {0} is the streamer name, {1} is the category played,
+	"SearchedClipTitlesAndFoundTemplate": "Výsledky vyhľadávania textu v názve klipu: {0}", // {0} is the search term for the clip title search
+	"AdvancedFiltering": "Rozšírené filtrovanie",
+	"IncludeChannels": "Zahrnúť tieto kanály",
+	"ExcludeChannels": "Vylúčiť tieto kanály",
+	"FilterButton": "Filtrovať", // The button to apply the advanced search filter
+	"PreviousPage": "Predošlá stránka",
+	"NextPage": "Ďalšia stránka",
+	"Calendar_Today": "Dnes",
+	"AutoComplete_NoData": "Nenašli sa žiadne výsledky", // A generic entry for the autocomplete when no results are found
+	"ShowSearchCriteria": "Zobraziť kritériá vyhľadávania",
+	"HideSearchCriteria": "Skryť kritériá vyhľadávania",
+	"SearchInChannels": "Vyhľadávať v kanáloch",
+
+	"ChannelsIfollow": "Sledujem", // These four need to be SHORT because they are button labels
+	"ChannelsIDontFollow": "Nesledujem",
+	"ChannelsAll": "Všetky",
+	"ChannelsSpecified": "Upresňujem",
+	"TeamSpecified": "Tím",
+
+	"TitleResults": "Výsledky titulov",
+	"TranscriptResults": "Výsledky prepisu",
+	"CategoryResults": "Kategórie",
+	"TeamResults": "Tímy",
+	"PageOfFormat": "Stránka {0} z {1}", // {0} is the current page number, {1} is the total number of pages
+	"FoundChannelsFormat": "Nájdené {0} kanálov", // {0} is the total number of channels found
+	"FoundCategoriesFormat": "Nájdené {0} kategórií", // {0} is the total number of channels found
+	"FoundTeamsFormat": "Nájdené {0} tímov", // {0} is the total number of teams found
+
+
+	// Sidebar
+	"SuggestedStreamers": "Navrhovaní streameri",
+	"MoreSuggestedStreamers": "Ďalší navrhovaní streameri",
+	"FollowedStreamers": "Sledovaní streameri",
+	"RecentlyLiveStreamers": "Recently Live Streamers",
+	"PinnedStreamers": "Pripnutí streameri",
+	"AllStreamers": "Všetci streameri",
+	"About": "O nás",
+	"Feedback": "Spätná väzba", // Link to the KlipTok Feedback website
+	"Close": "Zatvoriť",
+	"LiveForFormat": "Naživo už {0}", // {0} is the relative timestamp of when the stream started
+
+	// Sidebar Menu
+	"SidebarMenuTooltipFormat": "Akcie pre kanál {0}", // 0 is the channel name
+	"SidebarMenuVisitDashboard": "Zobraziť panel kanálu {0}", // 0 is the channel name
+	"SidebarMenuVisitClipsCreated": "Zobraziť vytvorené klipy kanálu {0}", // 0 is the channel name
+	"SidebarMenuMuteChannel": "Stlmiť {0}", // 0 is the channel name
+	"SidebarMenuPinChannel": "Pripnúť kanál {0}", // 0 is a counter indicating how many channels are pinned
+	"SidebarMenuUnpinChannel": "Odopnúť kanál",
+
+	// Streamer Page
+	"ClickToFollow": "Kliknutím začnete sledovať",
+	"ClickToUnfollow": "Kliknutím zrušíte sledovanie",
+	"ActionOnTwitchTemplate": "{0} na Twitchi", // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
+	"LiveOnTwitch": "Naživo na Twitchi!",
+	"ProfilePicTemplate": "Profilová fotka používateľa {0}", // {0} is the Streamer's Display Name
+	"NavigateToTwitchChannel": "Prejsť na Twitch kanál používateľa {0}", // {0} is the Streamer's Display Name
+	"TotalClipsOnKlipTok": "Celkový počet klipov na KlipToku",
+	"TotalLikesAcrossAllClips": "Celkový počet lajkov vo všetkých klipoch",
+	"TotalCommentsAcrossAllClips": "Celkový počet komentárov vo všetkých klipoch",
+	"TotalViewsAcrossAllClips": "Celkový počet zobrazení všetkých klipov",
+	"LastClipAdded": "Posledný pridaný klip:",
+	"LastClip": "Posledný klip:",
+	"NoProfilePicAvailable": "Žiadna profilová fotka nie je k dispozícií",
+	"DateRangePicker_Start": "Dátum od", // The Start Date label on the filter on the streamer page
+	"DateRangePicker_End": "Dátum po", // The End Date label on the filter on the streamer page
+	"ShareStreamer": "Zdielať streamera", // The tooltip for the Share button on the streamer page
+	"SelectCategory": "Zvoliť kategóriu", // The default text for the Category Filter combobox
+	"UnknownStreamer": "Neznámy streamer: {0}", // The header when an unknown streamer is requested
+	"UnknownStreamerDescription": "KlipTok nerozoznal streamera s menom {0}. Ak kanál existuje, tak ho môžete pridať pomocou nasledujúcich pokynov",
+	"NoRecentClips": "Nie sú k dispozícií žiadne informácie o klipe", // Error message displayed on dashboard when no recent clips are available
+
+	// Layout
+	"PublicBeta": "PUBLIC BETA",
+	"LoggedOutFromKlipTokAndTwitch": "Odhlásiť sa z KlipToku a Twitchu",
+	"LoginToKlipTokWithTwitch": "Prihlásiť sa do KlipToku s Twitchom",
+	"AuthenticationIsNoLongerValid": "Vaše overenie v Twitchi a KlipToku už nie je platné. Ak chcete pokračovať, prihláste sa do KlipToku pomocou Twitchu",
+	"Loading": "Načítavanie...",
+
+	// Errors
+	"ErrorWhileLoading": "Pri načítavaní došlo k chybe.",
+	"RetryButton": "Znova",
+
+	// Follows page
+	"TwitchChannelsIFollow": "Twitch streameri, ktorých sledujem",
+	"TwitchChannelsIFollowNotOnKlipTok": "Twitch streameri, ktorých sledujem a nie sú na KlipToku",
+	"NotLoggedIn": "Nie je možné zobraziť zoznam účtov, ktoré sledujete na Twitchi, pretože nie ste prihlásení pomocou konta Twitch. Ak chcete získať prístup k sledovaným účtom, prihláste sa a synchronizujte streamerov s KlipTokom.",
+
+	// Home Page
+	"DiscoverPopularClips": "Objaviť populárne klipy",
+	"DiscoverClips": "Preskúmať klipy",
+	"InsertCoin": "Vložiť mincu",
+	"MyFavoriteChannels": "Klipy z kanálov, ktoré sledujem", // Tooltip for the Following tab
+	"Favorites": "Sledované", // Renamed on April 27, 2021 to "Following"
+	"ClipsILike": "Klipy, ktoré sa mi páčia",
+	"LikedClips": "Obľúbené klipy",
+	"UserProfile": "Profil používateľa",
+	"UserPreferences": "Používateľské nastavenia",
+
+	// Filters on the scrollable clips
+	"FilterByCategory": "Filtrovať podľa kategórie", // watermark on the filter by category type-ahead box
+
+	// Liked Clips
+	"NoLikedClips": "Na KlipToku sa Vám ešte nepáčili žiadne klipy!",
+	"TryLikeButtonTemplate": "Skúste kliknúť na ikonu srdca {0} pod klipom, aby ste ho označili lajkom, a my Vám ho tu uložíme, aby ste ho mohli v budúcnosti jednoducho nájsť.", //  {0} is the heart icon
+
+	// User Profile
+	"DoesNotKeepSeparateUserInformation": "Služba KlipTok neuchováva oddelené informácie o používateľoch od Twitchu a je vytvorená ako služba na doplnenie služby Twitch Clips.",
+	"AutoPlayVideosOnScroll": "Automatické prehrávanie videí pri posúvaní",
+	"AutoPlayVideosOnHover": "Automatické prehrávanie videí pri náhľade",
+	"IndexClipsOfMyChannel": "Indexovanie mojich klipov",
+	"OptedOutDateTemplate": "Odhlásiť sa z indexovania z: {0}", // {0} is the datestamp of when opt-out was recorded
+	"SaveMyChanges": "Uložiť moje zmeny",
+	"SyncFollowersWithKlipTok": "Synchronizovať sledovaných streamerov s KlipTokom",
+	"MutedChannels": "Stlmení streameri",
+	"Channel": "Streamer",
+	"MutedUntil": "Stlmený do",
+	"RightToForget": "Right to forget",
+	"DangerZone": "[ Danger Zone ]", // This is a label indicating the items beneath it make destructive changes to your record on the application
+	"RightToForgetDescription": "Máte právo požiadať spoločnosť KlipTok o zabudnutie všetkých informácií, ktoré ste zdieľali. Kliknutím na tento odkaz a potvrdením odstráni KlipTok všetky vaše komentáre, lajky a klipy.",
+	"RemoveMyContentFromKlipTok": "Odstrániť môj obsah z KlipToku",
+	"ForgottenAsOfTemplate": "Zabudnuté od: {0}", // {0} is the datestamp of when the 'forget' action was taken
+
+	// Followed Channel Sync Notifications
+	"BeginAcquiringFollowers": "Získať sledované kanály z Twitchu",
+	"IdentifiedFollowerCount": "Identifikovaných {0} sledovaných kanálov na načítanie", // {0} is the count of channels to load
+	"CompletedLoadingFollowers": "Dokončené pridávanie sledovaných kanálov do KlipToku",
+
+	// Single Clip Page
+	"MissingClipError": "KlipTok nemá záznam o tomto klipe. Buď neexistuje, alebo sa kanál Twitch odhlásil z KlipToku.",
+	"LikedBy": "Páči sa to používateľovi:",
+	"UserLikedTimeTemplate": "{0} sa páčilo {1}", // {0} is the user display name who liked the Clip and {1} is the relative datestamp of the Like action
+	"InReplyToTemplate": "Odpovedať používateľovi: {0}", // {0} is the user display name whose comment we are replying to
+	"EnterNewComment": "Vložiť nový koment...",
+	"LoginWithTwitchToComment": "Prihlásiť sa Twitchom a komentovať",
+	"CommentButton": "Koment",
+
+	// Streamer Page
+	"MuteForLabel": "Stlmenie pre:",
+	"StreamerIsMutedUntilTemplate": "Streamer je stlmený do: {0}", // {0} is a datestamp of when the mute operation ends
+	"StreamerIsMuted": "Streamer je stlmený", // message displayed if a channel is muted forever
+	"NoMute": "Stlmiť", // Remove the mute effect on this streamer so that you can see their content again
+	"Forever": "Navždy", // Label for "Mute Forever" action button
+	"SortByLabel": "Zoradiť podľa:",
+	"Views": "Zhliadnutia", // The number of Clip Views for a Clip that we are sorting by
+	"Score": "Skóre", // A reference to the KlipTok algorithm assigned score for this Clip
+	"Latest": "Najnovšie", // A selector for the sort order to indicate the most recent created Clips should appear first
+	"ClipsFromLabel": "Klipy od:", // Label above the date range filter component
+	"SearchButton": "Hľadať", // Text on the search button to filter by date range
+	"ResetButton": "Reset", // Text on the reset button to no longer filter by date range
+	"NoClipsAvailable": "Nie sú k dispozícii žiadne klipy",
+	"AddClipsForThisStreamer": "Pridať klipy k tomuto streamerovi",
+	"NotifyOnOptIn": "Upozornenie: ak pridáte klipy k tomuto streamerovi, prosíme Vás, aby ste ho upozornili, že ste jeho klipy pridali na túto stránku. Nemáme žiadny priamy spôsob, ako sa s streamerom spojiť.",
+
+	// Streamer Dashboard
+	"Live": "NAŽIVO", // Text for the red live indicator.  Should be all capitalized
+	"ClipsTab": "Klipy", // Label for the Clips tab on the top of the Streamer page
+	"DashboardTab": "Panel", // Label for the dashboard tab on the top of the Streamer page
+	"CreatedClipsTab": "Vytvorené klipy", // Label for the Created Clips tab on the Streamer page
+	"ClipsCreatedLast90Days": "Vytvorené klipy posledných 90 dní", // Label for the Clips Created in the last 90 days graph
+	"ClipsCreatedPerWeek": "Klipy vytvorené za týždeň", // The label on the x-axis for the Clips Created in the Last 90 days graph
+	"ClipsByDayOfWeek": "Klipy vytvorené v deň", // Label for the clips by the day of week tile
+	"TitleDayCreated": "Deň vytvorenia", // Title for the Clips by Day of week radar chart
+	"MostViewedClippers": "Najviac videní klipperi", // Label for the Most Viewed Clippers table
+	"MostViewedCategories": "Najviac videné kategórie", // Label for the Most Viewed Categories table
+	"MostLikedClippers": "Najviac obľúbení klipperi",
+	"ClipsHeatMap": "Clips Heat Map",
+	"HeatmapTooltipFormat": "{0} klipov vytvorených {1}", // Format for the Heatmap tooltip - 0 is the number of clips, 1 is the date
+
+	// Transcription Features
+	"ClipHasTranscription": "Tento klip má prepis, ktorý možno vyhľadať", // Tooltip for the transcription icon
+	"SearchResultsFromTranscriptionSearch": "Výsledky vyhľadávania prepisu klipu pre text: {0}", // Clip transcription search results header.  {0} is the search text
+	"ClipTranscriptionByAssemblyAI": "Prepis klipu podľa AssemblyAI:", // Clip transcription attribution to AssemblyAI
+
+	// System Dashboard
+	"SystemStatus": "Stav systému",
+	"SystemStatusDashboard": "Panel pre stavu systému",
+	"SystemDashboardDescription": "Podrobnosti o raste spoločnosti KlipTok Vám dávame otvorene k dispozícii.",
+	"TotalClips": "Celkový počet klipov",
+	"ChannelsIndexed": "Indexované kanály",
+	"NewChannelsToday": "Dnešné nové kanály",
+	"TotalChannelsIdentified": "Total Channels Identified",
+	"TotalClipsTranscribed": "Celkový počet prepísaných klipov",
+	"ClipsTranscribedByDate": "Klipy prepísané podľa dátumu",
+	"ClipsLikedByDate": "Obľúbené klipy podľa dátumu",
+	"ClipsByDate": "Klipy podľa dátumu",
+
+	// Playlists
+	"PlaylistsTab": "Playlists",
+	"MyPlaylists": "Môj playlists",
+	"PlaylistsCreatedBy": "Playlists vytvorený {0}",
+	"CreateNewPlaylist": "Vytvoriť nový playlist",
+	"AddToPlaylist": "Pridať do playlistu",
+	"PlaylistTitle": "Playlist: {0}", // Title displayed at the top of the Playlist page
+	"CreatedBy": "Vytvorený: {0}", // "by-line" indicating who created the playlist
+	"Edit": "Upraviť",
+	"PreviousClip": "Predošlý klip",
+	"NextClip": "Ďalší klip",
+	"VideoTagNotSupported": "Váš prehliadač nepodporuje video tag",
+	"NoClipsOnPlaylist": "Žiadne klipy nie sú priradené do tohto playlistu",
+	"NoPlaylistsCreated": "V súčasnosti nie sú vytvorené žiadne playlisty",
+	"PlaylistName": "Názov playlistu",
+	"ClipTitle": "Názov",
+	"Remove": "Odstrániť",
+	"SavePlaylist": "Uložiť playlist",
+	"Cancel": "Zrušiť",
+	"Delete": "Vymazať",
+	"SharePlaylist": "Zdieľat tento playlist",
+	"CopyPlaylist": "Kopírovať tento playlist",
+	"PlaylistCopiedSuccessfully": "Playlist {0} bol úspešne skopírovaný!",
+	"Ok": "Ok",
+
+	// Embed playlists
+	"EmbedPlaylistWindowTitle": "Vložiť tento zoznam skladieb",
+	"EmbedPlaylistIntro": "Konfiguruj vložiteľnú adresu URL pre tento zoznam skladieb.",
+	"ShufflePlaylist": "Náhodné prehrávanie klipov v zozname skladieb",
+	"CreditsMode": "Zobraziť zásluhy v ľavom dolnom rohu videa",
+	"CreditsFade": "Vyblednutie zásluh po 8 sekundách",
+	"UrlCopiedToClipboard": "URL skopírované do schránky",
+
+	// Smart playlists
+	"MostViewed30Days": "Nedávne populárne klipy",
+	"CreatorsTop50Viewed": "Top 50 najsledovanejších klipov",
+	"PreviouslyOn": "Predošlé...",
+	"SmartPlaylist_MostViewed": "Recent Popular Clips on {0}",
+	"SmartPlaylist_CreatorTop50": "Top 50 najsledovanejších klipov vytvorené {0}",
+	"TeamMostViewedPlaylist": "Najsledovanejšie klipy",
+	"TeamHighlightsPlaylist": "Team Highlights"
+}
